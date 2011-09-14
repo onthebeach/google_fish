@@ -5,7 +5,7 @@ Content-Type: application/json; charset=UTF-8
  "data": {
   "translations": [
    {
-    "translatedText": "hola"
+    "translatedText": "\u003cp\u003e hola \u003c/p\u003e"
    }
   ]
  }

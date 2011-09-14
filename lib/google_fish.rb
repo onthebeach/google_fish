@@ -1,11 +1,13 @@
 class GoogleFish
-  attr_accessor :key, :source, :target, :q, :translated_text
+  attr_accessor :key, :source, :target, :q, :translated_text, :format
 
   def initialize(key)
     @key = key
+    @format = :text
   end
 
-  def translate(source, target, q)
+  def translate(source, target, q, options={})
+    @format = :html if options[:html]
     @source, @target, @q = source, target, q
     @translated_text = request_translation
   end
@@ -22,7 +24,6 @@ class GoogleFish::Request
   require 'net/http'
   require 'addressable/uri'
   require 'json'
-  require 'cgi'
   attr_accessor :query, :response, :parsed_response
 
   def initialize(query)
@@ -37,7 +38,7 @@ class GoogleFish::Request
   private
 
   def query_values
-    {:key => query.key, :q => query.q,
+    {:key => query.key, :q => query.q, :format => query.format,
       :source => query.source, :target => query.target}
   end
 
