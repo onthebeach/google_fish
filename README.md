@@ -1,6 +1,8 @@
 google_fish
 ========
 
+[![Build Status](https://secure.travis-ci.org/seenmyfate/google_fish.png)](http://travis-ci.org/seenmyfate/google_fish)
+
 A tiny gem that makes using Google Translate v2 API trivial.
 
 Getting started
@@ -30,4 +32,5 @@ Contributing to google_fish
 
 Copyright &copy; 2011 On The Beach Ltd. See LICENSE.txt for
 further details.
+![Project status](http://stillmaintained.com/onthebeach/google_fish.png)
 
