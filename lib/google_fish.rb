@@ -21,7 +21,7 @@ class GoogleFish
 end
 
 class GoogleFish::Request
-  require 'net/http'
+  require 'net/https'
   require 'addressable/uri'
   require 'json'
   attr_accessor :query, :response, :parsed_response
