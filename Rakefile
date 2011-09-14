@@ -34,6 +34,7 @@ end
 RSpec::Core::RakeTask.new(:rcov) do |spec|
   spec.pattern = 'spec/**/*_spec.rb'
   spec.rcov = true
+  spec.rcov_opts = %w{--exclude osx\/objc,gems\/,spec\/,features\/, --aggregate coverage.data}
 end
 
 task :default => :spec
