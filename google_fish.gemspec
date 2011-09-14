@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "google_fish"
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["seenmyfate"]
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
     "spec/support/good.json",
     "spec/support/good_html.json"
   ]
-  s.homepage = "http://github.com/On-The-Beach/google_fish"
+  s.homepage = "http://github.com/onthebeach/google_fish"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
