@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["seenmyfate"]
   s.date = "2011-09-14"
-  s.description = "TODO: longer description of your gem"
+  s.description = "A tiny gem that makes using Google Translate v2 API trivial"
   s.email = "seenmyfate@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "google_fish.gemspec",
     "lib/google_fish.rb",
     "spec/google_fish_spec.rb",
     "spec/spec_helper.rb",
@@ -32,11 +33,11 @@ Gem::Specification.new do |s|
     "spec/support/good.json",
     "spec/support/good_html.json"
   ]
-  s.homepage = "http://github.com/seenmyfate/google_fish"
+  s.homepage = "http://github.com/On-The-Beach/google_fish"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A tiny gem that makes using Google Translate v2 API trivial"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
