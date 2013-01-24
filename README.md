@@ -1,7 +1,4 @@
-google_fish
-========
-
-[![Build Status](https://secure.travis-ci.org/seenmyfate/google_fish.png)](http://travis-ci.org/seenmyfate/google_fish)
+# google_fish [![Build Status](https://travis-ci.org/onthebeach/google_fish.png?branch=master)](http://travis-ci.org/onthebeach/google_fish) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/onthebeach/google_fish)
 
 A tiny gem that makes using Google Translate v2 API trivial.
 
